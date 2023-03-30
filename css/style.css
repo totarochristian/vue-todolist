@@ -6,3 +6,6 @@
     width: 80%;
     max-width: 1000px;
 }
+.done{
+    text-decoration: line-through;
+}
