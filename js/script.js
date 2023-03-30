@@ -15,6 +15,9 @@ createApp({
                 this.quests.push(obj);
                 this.newQuest = '';
             }
+        },
+        SetQuestResult(index,value){
+            this.quests[index].done = value;
         }
     }
 }).mount("#app");
