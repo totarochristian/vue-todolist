@@ -18,6 +18,9 @@ createApp({
         },
         SetQuestResult(index,value){
             this.quests[index].done = value;
+        },
+        RemoveQuest(index){
+            this.quests.splice(index,1);
         }
     }
 }).mount("#app");
