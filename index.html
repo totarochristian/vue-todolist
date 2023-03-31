@@ -20,7 +20,7 @@
     <div id="app" class="d-flex flex-column align-items-center justify-content-center gap-4">
         <h1>{{title}}</h1>
         <div class="d-flex align-items-center justify-content-between gap-2">
-            <input type="text" name="newQuest" id="newQuest" v-model="newQuest" @keyup.enter="AddQuests">
+            <input type="text" name="newQuest" id="newQuest" v-model="newQuest" @keyup.enter="AddQuests" placeholder="Nuova attività">
             <button name="btnAddQuest" id="btnAddQuest" @click="AddQuests" type="button" class="btn btn-outline-primary"><i class="fa-solid fa-plus"></i></button>
         </div>
         <div id="questList">
